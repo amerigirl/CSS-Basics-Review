@@ -1,12 +1,17 @@
+
+body{
+  font-family:'Times New Roman', Times, serif
+}
+
 #product-overview {
-  background: blue;
+  background: palevioletred;
+}
+
+.section-title {
+  color: #2ddf5c;
 }
 
 h1 {
   color: white;
   font-family: "Anton", sans-serif;
-}
-
-.section-title {
-color: #2ddf5c;
 }

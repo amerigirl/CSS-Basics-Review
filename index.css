@@ -45,3 +45,7 @@ body {
     text-align: center;
     margin-top: auto;
 }
+
+.contentBody .date{
+    color:black;
+}

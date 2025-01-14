@@ -1,29 +1,47 @@
 .title {
+  text-align: center;
+  color: slateblue;
+  background-color: whitesmoke;
+  padding: 10px 20px;
+  display: inline-block;
+  position: relative;
+  left: 40%;
+  outline: 2px solid black;
+  border-radius: 30px;
+}
+
+body {
+  background-image: url("/Floating-Thoughts.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contents {
+  padding: 1%;
+  margin-left: 1%;
+  height: 50%;
+  width: 15%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+
+.contents .bTitle {
+  text-decoration: underline;
+}
+
+.contentBody {
+  padding: 1%;
+  margin-top: 4%;
+  margin-left: 1%;
+  height: 40%;
+  width: 30%;
+  background-color: rgb(204, 225, 230);
+  border-radius: 20px;
+  outline: 2px solid black;
+  
+}
+
+.contentBody .contentTitle{
     text-align: center;
-    color: slateblue;
-    background-color: whitesmoke;
-    padding: 10px 20px;
-    display: inline-block;
-    position: relative;
-    left: 40%;
-    outline: auto black;
-}
-
-
-body{
-    background-image: url('/Floating-Thoughts.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.contents{
-    padding: 2%;
-    height: 50%;
-    width: 20%;
-    background-color: whitesmoke;
-    border-radius: 5%;
-}
-
-.contents .bTitle{
-    text-decoration: underline;
+    margin-top: auto;
 }

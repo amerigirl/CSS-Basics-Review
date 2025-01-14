@@ -1,0 +1,17 @@
+.title {
+    text-align: center;
+    color: slateblue;
+    background-color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    position: relative;
+    left: 40%;
+    outline: auto black;
+}
+
+
+body{
+    background-image: url('/Floating-Thoughts.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

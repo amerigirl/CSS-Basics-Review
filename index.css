@@ -1,7 +1,7 @@
 .title {
     text-align: center;
     color: slateblue;
-    background-color: white;
+    background-color: whitesmoke;
     padding: 10px 20px;
     display: inline-block;
     position: relative;
@@ -14,4 +14,16 @@ body{
     background-image: url('/Floating-Thoughts.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.contents{
+    padding: 2%;
+    height: 50%;
+    width: 20%;
+    background-color: whitesmoke;
+    border-radius: 5%;
+}
+
+.contents .bTitle{
+    text-decoration: underline;
 }
